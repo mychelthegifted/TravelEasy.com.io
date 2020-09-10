@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/**--Header--*/
+header{
+    background-color: #fff;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    max-width: 100%;
+    margin-top: 5px;
+    float: left;
+}
+#nav-bar{
+    float: right;
+}
+#nav-bar ul li{
+    display: inline-block;
+    line-height: 60px;
+}
+#nav-bar ul li a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #424142;
+}
+#nav-bar ul li a span{
+    color: #c1069f;
+    font-weight: 500;
+}
+#nav-bar ul li a:hover{
+    color: #c1069f;
+}
+#nav-bar ul li a span:hover{
+    color: #424142;
+}
+
+
+/*--About us---*/
+#company-brief{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 80%;
+    margin-left: 50px;
+}
+.about-right-col{
+    flex-basis: 50%;
+}
+.about-right-col .about-us-text{
+    max-width: 450px;
+    margin-left: 50px;
+}
+.about-right-col .square{
+    height: 5px;
+    width: 350px;
+    background: #c1069f;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+}
+.about-right-col .circle{
+    height: 5px;
+    width: 5px;
+    background: #c1069f;
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.about-right-col .about-us-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #424142;
+}
+.about-right-col .about-us-text p{
+    margin-top: 30px
+}
+
+/*---Our Mission--*/
+#our-mission{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.mission{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mission-left-col{
+    flex-basis: 50%;
+}
+.mission-right-col{
+    flex-basis: 50%;
+}
+.mission-right-col img{
+    width: 80%;
+    margin-left: 50px;
+}
+.mission-left-col .mission-text{
+    max-width: 450px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.mission-left-col .square{
+    height: 5px;
+    width: 350px;
+    background: #c1069f;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+}
+.mission-left-col .circle{
+    height: 5px;
+    width: 5px;
+    background: #c1069f;
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.mission-left-col .mission-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #424142;
+}
+.mission-left-col .mission-text p{
+    margin-top: 30px
+}
+
+/*---founders--*/
+#founders{
+    margin-top: 50px;
+    margin-right: 40px;
+    padding: 40px;
+}
+.foundersection{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.foundersection .column{
+    flex-basis: 25%;
+    text-align: center;
+    font-size: 16px;
+    margin: 30px;
+}
+.foundersection .column img{
+    width: 150px;
+}
+#founders h1{
+    font-size: 40px;
+    margin-left: 480px;
+    margin-bottom: 20px;
+    color: #c1069f;
+}
+
+
+/*---footer--*/
+#footer{
+    padding: 30px 0 30px;
+    background-color: #424142;
+}
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col{
+    flex-basis: 50%;
+    margin-left: 90px;
+}
+.footer-right-col{
+    flex-basis: 35%;
+}
+.footer-logo img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.footer-contact{
+    margin-bottom: 20px;
+}
+.footer-contact small{
+    font-size: 14px;
+    color: #fff;
+}
+.social-icons img{
+    width: 20px;
+    padding: 0 20px 0 0;
+}
+.footer-section .social-icons{
+    margin-top: 20px;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 150px;
+    color: #fff;
+}
+.footer-links{
+    flex-basis: 40%;
+}
+.link-title small a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.link-title small a:hover{
+    color: #c1069f;
+}
+
+.footer-section .line{
+    height: 1.5px;
+    width: 1200px;
+    background: #fff;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.footer-section .footer-text{
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+
+
+@media only screen and (max-width: 500px){
+
+        .container{
+            margin: auto;
+            overflow: hidden;
+        }
+        .logo{
+            max-width: 30%;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        #nav-bar{
+            position: fixed;
+            width: 200px;
+            height: 100%;
+            background-color: #7e7a7e;
+            right: -200px;
+            transition: all 0.5s linear;
+        }
+        #nav-bar.active{
+            right: 0px;
+        }
+        #nav-bar ul li{
+            list-style: none;
+            padding: 5px 20px;
+            font-size: 15px;
+        }
+        #nav-bar ul li a,  #nav-bar ul li a span{
+            color: #ffffff;
+        }
+        #nav-bar ul li a:hover,  #nav-bar ul li a span:hover{
+            color: #000000;
+        }
+        #nav-bar .togglebtn{
+            position: absolute;
+            right: 230px;
+            top: 20px;
+        }
+        #nav-bar .togglebtn span{
+            display: block;
+            width: 30px;
+            height: 5px;
+            background: #7e7a7e;
+            margin: 5px 0px;
+        }
+        
+        /*--About us--*/
+        #company-brief{
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        .about-left-col, .about-right-col{
+            flex-basis: 100%;
+        }
+        .about-right-col .about-us-text{
+            max-width: 75%;
+            margin-left: 60px;
+            margin-top: 20px;
+        }
+        .about-right-col .square{
+            height: 5px;
+            width: 200px;
+            background: #c1069f;
+            display: inline-block;
+            border: none;
+            border-radius: 10px;
+        }
+        .about-right-col .circle{
+            height: 5px;
+            width: 5px;
+            background: #c1069f;
+            display: inline-block;
+            border: none;
+            border-radius: 50px;
+            margin-left: 10px;
+        }
+        .about-right-col .about-us-text h1{
+            font-size: 30px;
+            font-weight: 700;
+            color: #424142;
+        }
+        .about-right-col .about-us-text p{
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        /*--Our Mission--*/
+        #our-mission{
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        .mission-left-col, .mission-right-col{
+            flex-basis: 100%;
+        }
+        .mission-left-col .mission-text{
+            max-width: 75%;
+            margin-left: 60px;
+            margin-bottom: 50px;
+        }
+        .mission-left-col .square{
+            height: 5px;
+            width: 200px;
+            background: #c1069f;
+            display: inline-block;
+            border: none;
+            border-radius: 10px;
+        }
+        .mission-left-col .mission-text h1{
+            font-size: 30px;
+            font-weight: 700;
+            color: #424142;
+        }
+        .mission-left-col .mission-text p{
+            margin-top: 30px
+        }
+
+         /*--founders section--*/
+         #founders{
+            margin-left: 40px;
+            padding: 40px;
+        }
+        #founders h1{
+            font-size: 30px;
+            margin-left: 40px;
+            margin-bottom: 20px;
+        }
+
+
+
+        /*--footer--*/
+        .footer-left-col, .footer-right-col{
+            flex-basis: 100%;
+        }
+        .footer-left-col{
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .footer-links{
+            flex-basis: 80%;
+            margin-left: 70px;
+            margin-bottom: 30px;
+        }
+        .footer-links .link-title{
+            flex-basis: 30%;
+            margin-left: 20px;
+        }
+        .footer-links .link-title a{
+            font-size: 12px;
+        }
+        .footer-section .footer-text{
+            color: #fff;
+            margin-top: 20px;
+            margin-left: 125px;
+            font-size: 12px;
+        }        
+
+}

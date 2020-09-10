@@ -1,13 +1,12 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>TravelEasy.com</title>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/contact.css"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     </head>
-
     <body>
         <header>
             <div class="container">
@@ -19,10 +18,10 @@
                         <span></span>
                     </div>
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="./about.html">About Us</a></li>
-                        <li><a href="./contact.html">Contact Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
                         <li><a href="#"><span>Log In</span></a></li>
                     </ul>
                 </div>
@@ -35,62 +34,79 @@
             }
         </script>
 
-        <!-- home banner -->
-        <section id="home-banner">
-            <div class="container banner-text">
-                <p>Nigeria's biggest travelling agency<br> is here for you. 
-                Join our client base<br> and enjoy a wide variety of our<br>services today.</p>
-                <button class="signup-button"><a href="#">Create Account</a></button>
+        <!--contact banner-->
+        <section id="contact-banner">
+            <div class="container contact-text">
+                <p>We'd like to hear from You</p>
             </div>
+
         </section>
 
-        <!---Features section-->
-        <section id="features">
-            <div class="feature-row">
-                <div class="column">
-                    <img src="img/flying.png">
-                    <p>Book a flight to any destination<br>
-                        of your choice today.</p>
-                        <button class="featurebtn"><a href="#">Book A Flight</a></button>
-                </div>
-                <div class="column">
-                    <img src="img/map.png">
-                    <p>Check out the top Holiday destinations<br>
-                        based on demand by our clients.</p>
-                        <button class="featurebtn"><a href="#">See Destinations</a></button>
-                </div>
-                <div class="column">
-                    <img src="img/services.png">
-                    <p>See other services we have<br>
-                        to offer.</p>
-                    <button class="featurebtn"><a href="#">Services</a></button>
-                </div>
-            </div>
-        </section>
+        <!--contact us-->
+        <section id="contact-mail">
+            <div class="container contact-us">
+                <div class="contact-left-col">
+                    <h1>Send Us a Mail</h1>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>First Name</label>
+                                <input type="text" placeholder="e.g John">
+                            </div>
+                            <div class="input-group">
+                                <label>Last Name</label>
+                                <input type="text" placeholder="e.g Ikegwuru">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email Address</label>
+                                <input type="text" placeholder="Your email address">
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" placeholder="Subject">
+                            </div>
+                        </div>
 
-        <!-- blog section -->
-        <section id="blog-section">
-            <div class="container blog-row">
-                <div class="blog-left-col">
-                    <img src="img/blogger.png" alt="blogger image">
+                        <label>Message</label>
+                        <textarea rows="5"></textarea>
+
+                        <button type="submit">SEND</button>
+                    </form>
                 </div>
-                <div class="blog-right-col">
-                    <div class="blog-text">
-                        <h1>Know what's going in the world of Travel</h1>
-                            <span class="square"></span><span class="circle"></span><span class="circle"></span><br>
-                        <p> With our Blog, we give you updates on all you need to know<br>
-                            about travelling, best places to be and of course, give you<br>
-                            tips on lifestyles and cultures across countries.
-                        </p>
-                        <button class="blogbtn"><a href="#">Go To Blog</a></button>
-                    </div>
+                <div class="contact-right-col">
+                    <img src="img/contact.png">
                 </div>
             </div>
         </section>
 
 
-        <!--footer section -->
-        <section id="footer">
+        <!--call section-->
+        <section id="info-section">
+            <div class="container contact-us-row">
+                <div class="column">
+                    <h2>Call Us Today On:</h2>
+                    <p>+234 806 000 4576</p>
+                    <p>01-72968567.</p>
+                </div>
+                <div class="column">
+                    <h2>Head Office Address:</h2>
+                    <p>No.5 Johnson Avenue, Lekki Phase 1, Lagos.</p>
+                </div>
+                <div class="column">
+                    <h2>Follow Us:</h2>
+                    <a href="#"><img src="img/f.png" class="facebook"></a>
+                    <a href="#"><img src="img/i.jpg" class="instagram"></a>
+                    <a href="#"><img src="img/t.png" class="twitter"></a>
+                    <a href="#"><img src="img/li.png" class="linkedin"></a>
+                </div>
+            </div>
+        </section>
+
+
+         <!--footer section-->
+         <section id="footer">
             <div class="container footer-section">
                 <div class="footer-left-col">
                     <div class="footer-logo">
@@ -113,7 +129,7 @@
                         <div class="link-title">
                             <h3>Company</h3><br>
                             <small><a href="#">Pricing</a></small><br>
-                            <small><a href="#">FAQs  </a></small><br>
+                            <small><a href="#">FAQs</a></small><br>
                             <small><a href="#">About Us</a></small><br>
                             <small><a href="#">Contact Us</a></small>
                         </div>
@@ -130,7 +146,6 @@
                 <div class="footer-text">TravelEasy.com &copy; copyright 2020</div>
             </div>
         </section>
-        
-       
+
     </body>
 </html>
